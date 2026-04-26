@@ -3,7 +3,7 @@ using CarvedRockFitness.Services;
 using CarvedRockFitness.Repositories;
 using Microsoft.Extensions.Logging.AzureAppServices;
 
-var builder = WebApplication.CreateBuilder(args);
+var builder = WebApplication.CreateBuilder(args); 
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
